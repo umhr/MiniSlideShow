@@ -30,8 +30,8 @@ package
 			_bulkLoader = new BulkLoader("theOne");
 			_bulkLoader.add("images/img1.jpg", { type:BulkLoader.TYPE_IMAGE, id:"img1" } );
 			_bulkLoader.add("images/img2.jpg", { type:BulkLoader.TYPE_IMAGE, id:"img2" } );
-			_bulkLoader.add("images/img2.jpg", { type:BulkLoader.TYPE_IMAGE, id:"img3" } );
-			_bulkLoader.add("images/img3.jpg", { type:BulkLoader.TYPE_IMAGE, id:"img4" } );
+			_bulkLoader.add("images/img3.jpg", { type:BulkLoader.TYPE_IMAGE, id:"img3" } );
+			_bulkLoader.add("images/img4.jpg", { type:BulkLoader.TYPE_IMAGE, id:"img4" } );
 			_bulkLoader.addEventListener(BulkLoader.COMPLETE, bulkLoader_complete);
 			_bulkLoader.start();
 			
